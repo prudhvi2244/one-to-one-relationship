@@ -1,0 +1,14 @@
+server:
+  port: 9999
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/relationshipsdb
+    username: postgres
+    password: 12345678
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
